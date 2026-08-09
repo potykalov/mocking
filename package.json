@@ -1,0 +1,38 @@
+{
+  "name": "mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potykalov/mocking.git"
+  },
+  "keywords": [],
+  "author": "Dmitriy Potykalov <dmitriy.potykalov@gmail.com> (https://github.com/potykalov)",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/potykalov/mocking/issues"
+  },
+  "homepage": "https://github.com/potykalov/mocking#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@eslint/js": "^10.0.1",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.4.1",
+    "eslint": "^10.8.1",
+    "globals": "^17.9.0",
+    "husky": "^9.1.7",
+    "jest": "^30.4.2"
+  },
+  "dependencies": {
+    "core-js": "^3.50.0"
+  }
+}
